@@ -1,1 +1,5 @@
-yo
+Project: IMDB Data Scraping and Analysis
+- Scraped data from the IMDB website using Beautifulsoup and extracted the ranking, name, release date, and user rating data.
+- Saved the data to an Excel file and transformed it into tables for analysis using Excel.
+- Analyzed the data to identify trends and patterns in the IMDB rankings.
+Note: This project demonstrated proficiency in web scraping, data extraction, and data analysis using Beautifulsoup, Python, and Excel.
