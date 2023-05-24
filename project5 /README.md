@@ -1,1 +1,1 @@
-
+In this project, I have extracted a dataset from Kaggle that contains information about bike and car sales. I cleaned and sorted the data using Excel and provided pivot tables and graphs to visualize the results. I have also created a dashboard that provides a more detailed analysis and can be used for research purposes. This project has demonstrated my skills in data analysis and visualization using Excel.
