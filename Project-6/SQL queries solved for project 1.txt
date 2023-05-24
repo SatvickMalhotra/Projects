@@ -1,0 +1,44 @@
+first downloaded the data from keggle of hero honda cars from 2000 - 2023
+then using Excel convert the data into useable form and clean it 
+transfer the data into MySql and perform these questions 
+
+2023 how many customers gave 4+ star rating 
+
+-- SELECT * from excel_csv where year = 2023 and Consumer_Rating > 4;
+-- SELECT  COUNT(*)  from excel_csv where year = 2023 and Consumer_Rating > 4;
+
+2022 how many customers gave 3 or less ratings
+
+-- SELECT count(*) from excel_csv where year = 2022 and Consumer_Rating < 3; 
+
+Which bike model is the most expensive?(top 3)
+
+-- select  distinct model ,Price from excel_csv order by price desc limit 3;
+
+which is the most popular car in each state in 2023?
+
+select model , state ,count(*) 
+from excel_csv 
+where year = 2023 
+group by state order by count(*) desc;
+
+which model has the maximum number of consumer rating 
+
+select model , Consumer_Rating ,count(*) 
+from excel_csv  
+group by model order by count(*) desc;
+
+
+which model has the minimum number of consumer rating in 2022
+
+
+select model , Consumer_Rating ,count(*) 
+from excel_csv  
+where year = 2022
+group by model order by count(*) ;
+
+
+
+
+
+
